@@ -4,26 +4,26 @@ refer the env.txt file for database environment variables configuration
 
 # User paths:
 
-api/register/$~~~~~$method type: POST
+api/register/&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;method type: POST
 
-api/login/$~~~~~$method type: POST
+api/login/&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;method type: POST
 
-api/upload/$~~~~~$method type: POST
+api/upload/&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;method type: POST
 
-api/admins/$~~~~~$method type: GET
+api/admins/&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;method type: GET
 
 
 # Admin paths:
 
-admin/register/$~~~~~$method type: POST
+admin/register/&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;method type: POST
 
-admin/login/$~~~~~$method type: POST
+admin/login/&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;method type: POST
 
-admin/assignments/$~~~~~$method type: GET
+admin/assignments/&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;method type: GET
 
-admin/assignments/:id/accept/$~~~~~$method type: POST
+admin/assignments/:id/accept/&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;method type: POST
 
-admin/assignments/:id/reject/$~~~~~$method type: POST
+admin/assignments/:id/reject/&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;method type: POST
 
 
 # admin panel path: 
