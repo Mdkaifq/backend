@@ -1,6 +1,26 @@
 # backend
 
-refer the env.txt file for database environment variables configuration
+**refer the env.txt file for database environment variables configuration**
+
+# how to run this project
+make a virtual environment and install the repository inside it
+
+activate you virtual environment
+```bash
+venv/Scripts/activate # for linux: source venv/bin/activate
+```
+
+then take a dive inside backend folder and download the used packages
+```bash
+pip install -r requirements.txt
+```
+
+then run the server
+
+```bash
+python manage.py runserver
+```
+**Note: make sure that the virtual environment is activated**
 
 # User paths:
 
