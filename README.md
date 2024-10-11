@@ -1,10 +1,14 @@
-# backend
+# backend python version: 3.12
 
 **refer the env.txt file for database environment variables configuration**
 
 # how to run this project
 
-Make a virtual environment 
+Create a virtual environment 
+
+```bash 
+python -m venv venv # for linux:  virtualenv venv
+```
 
 Clone the repository
 ```bash 
