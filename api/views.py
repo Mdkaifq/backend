@@ -55,7 +55,7 @@ def login(request):
 def submitAssignment(request):
     
     if not User.objects.filter(username=request.data.get('userId')).exists():
-        return Response("Incorrect userId", status=status.HTTP_400_BAD_REQUEST)
+        return Response("Incorrect userId, your username is your userId", status=status.HTTP_400_BAD_REQUEST)
     if not User.objects.get(username=request.data.get('admin')).is_superuser:
         return Response(f"{request.data.get('admin')} is not an admin", status=status.HTTP_400_BAD_REQUEST)
     user = User.objects.get(username=request.data.get('userId'))
