@@ -3,11 +3,22 @@
 **refer the env.txt file for database environment variables configuration**
 
 # how to run this project
-make a virtual environment and install the repository inside it
+
+Make a virtual environment 
+
+Clone the repository
+```bash 
+git clone https://github.com/dsbalico/dsfolio-v1.git
+```
 
 activate you virtual environment
 ```bash
 venv/Scripts/activate # for linux: source venv/bin/activate
+```
+
+Change into the project directory
+```bash
+cd backend
 ```
 
 then take a dive inside backend folder and download the used packages
